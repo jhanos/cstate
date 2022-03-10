@@ -89,7 +89,7 @@
 
           {{ with $system.partial }}
           <div>
-            {{ partial . (dict "system" $system "activeComponentIssues" $activeComponentIssues) }}
+            {{ partial . (dict "system" $system "incidents" $incidents) }}
           </div>
           {{ end }}
         </div>
